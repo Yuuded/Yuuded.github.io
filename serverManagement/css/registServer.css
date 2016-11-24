@@ -1,0 +1,198 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body {
+	padding-top:0px;
+	background: transparent;
+}
+
+h1
+{
+	text-align: center;
+	border: 3px solid black;
+    border-radius: 4px;
+    background-image: linear-gradient(to bottom right, #ffb380, #e65c00);
+	padding-top:3px;
+	padding-bottom:3px;
+	font-style:italic;
+}
+
+#modeDiv {
+	text-align: center;	
+}
+
+label {
+	margin-left: 5%;	
+}
+
+#containerDiv {
+	width:450px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#optionsDiv {
+	width:inherit;
+}
+
+#inputDiv {
+	position:relative;
+	float:left;
+	width:390px;	
+}
+
+#infoDiv {
+	position:relative;
+	float:right;
+	width:30px;
+	margin-right:5%;
+}
+
+input, select {
+	position: relative;
+	float:right;
+}
+
+#schedule input {
+	float:right;
+	margin-left:5px;
+	width:100px;	
+}
+
+#scheduleDot {
+	float:right;
+	margin-left:5px;	
+}
+
+span {
+	float:right;
+	clear:both;
+	font-weight:bold;
+	margin-bottom:16px;
+}
+
+input {
+	width:200px;	
+}
+
+select {
+	width:204px;	
+}
+
+.checkbox {
+	width:inherit;
+}
+
+#createServerButtonDiv, #adminsDiv, #adminsButtons, #creatingDiv, #registingDiv {
+	clear:both;
+	text-align: center;
+}
+
+#create {
+	margin-right: 55px;
+	width:auto;
+	float:none;
+	height:auto;
+}
+
+#cancel {
+	margin-left: 55px;
+	width:auto;
+	float:none;
+	height:auto;
+}
+
+#adminsDiv
+{
+	background-image: linear-gradient(to bottom, #85a2f9, #3c6bf6);
+    border: 2px solid black;
+    border-radius: 4px;
+	width: 405px;
+	margin-right: auto;
+	margin-left : auto;
+    margin-bottom: 10px;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+td
+{
+    color:black;
+    font-style: italic;
+    font-size: 18px;
+    margin-left: 0;
+    width: auto;
+    text-align: left;
+}
+
+#newAdminsTable, #adminsTable {
+	table-layout: fixed;
+  	word-wrap: break-word;
+}
+
+#adminsTable input {
+	width: auto;
+	float: none;
+}
+
+#newAdminsTable input {
+	width: auto;
+	float: none;
+}
+
+#adminsButtons {
+	width: 400px;	
+}
+
+#type {
+	height:25px;	
+	width: 200px;
+}
+
+#addB {
+	font-size:14px;
+	margin-right:30px;
+	margin-left:50px;	
+}
+
+#remAdmin {
+	font-size:14px;	
+}
+
+button {
+	font-size:18px;
+    background-color: coral;
+    border-radius: 10px;	
+}
+
+#adminLabelDiv {
+	clear:both;	
+}
+
+#AdminsLabel
+{
+    width: auto;
+    text-align: left;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-radius: 4px;
+	margin-bottom:0px;
+	padding-bottom:0px;
+    background-color: #85a2f9;
+}
+
+#adminLabelDiv span {
+	float:none;
+	clear:both;
+	font-weight:bold;
+	margin-left: 283px;
+}
+
+#creatingDiv, #registingDiv {
+	font-size:16px;
+}
+
+
+
+

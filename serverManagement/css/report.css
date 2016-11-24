@@ -1,0 +1,150 @@
+@charset "utf-8";
+/* CSS Document */
+html
+{
+    background: transparent;
+}
+
+body
+{
+    background: transparent;
+}
+
+
+label
+{
+    display: inline-block;
+    margin-left:10%;
+    margin-right: 0%;
+    width: 185px;
+    text-align: right;
+    background: transparent;
+}
+
+h1
+{
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 4px;
+    background-image: linear-gradient(to bottom right, #ffb380, #e65c00);
+	padding-top:3px;
+	padding-bottom:3px;
+	font-style:italic;
+}
+
+#containerDiv
+{
+    width:450px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+label.info
+{
+    color:black;
+    font-style: italic;
+    font-size: 18px;
+    margin-left: 10px;
+    width: auto;
+    text-align: left;
+}
+
+td
+{
+    color:black;
+    font-style: italic;
+    font-size: 18px;
+    margin-left: 0;
+    width: auto;
+    text-align: left;
+}
+
+#curUser
+{
+    text-align: right;
+}
+#totalUser
+{
+    margin-left: 0%;
+    width:30px;
+}
+
+#AdminsLabel
+{
+    width: auto;
+    text-align: left;
+    margin-left: 0%;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-radius: 4px;
+    margin-bottom: -1%;
+    background-color: #85a2f9;
+}
+
+#adminsDiv
+{
+    background-image: linear-gradient(to bottom, #85a2f9, #3c6bf6);
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+#SetL
+{
+    margin-left:0px;
+    position: relative;
+    float:left;
+    width: auto;
+}
+
+#closeL
+{
+    margin-left:0px;
+    position: relative;
+    float:right;
+    width: auto;
+    margin: 0px;  
+}
+
+#settings
+{
+	/*
+    width:50px;
+    height:50px;
+    background-image: url("images/icon_small_settings1_40.png");
+    background-size: contain;   
+	background-repeat: no-repeat;
+	*/
+	font-size:18px;
+    background-color: coral;
+    border-radius: 10px;
+}
+
+#ok
+{
+    margin-left:0px;
+    position: relative;
+    float:right;
+	/*
+    width:50px;
+    height:50px;
+    background-image: url("images/close_4.png");
+    background-size: contain;   
+	background-repeat: no-repeat;
+	*/
+	font-size:18px;
+    background-color: coral;
+    border-radius: 10px;
+}
+
+#curUser {
+	color: black;
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;	
+}
+
+#loadingDiv {
+	font-size:16px;
+	text-align: center;
+}

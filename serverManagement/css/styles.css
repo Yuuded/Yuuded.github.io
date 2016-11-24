@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body, #wrapper {
+	height: 98%;	
+}
+
+#innerPage {
+	margin-right: 2px;
+	position:relative;
+}
+
+iframe {
+	width: 100%;
+	height: inherit;
+	position: absolute;
+	border-bottom: 1px #000000 solid;
+	border-left: 1px #000000 solid;
+	border-top: 1px #000000 solid;
+	border-right: 1px #000000 solid;
+}
+
+#logo
+{
+	background-image: url("images/Logo.png");
+    background-size: contain;
+	background-repeat: no-repeat;
+	width: 100px;
+}
+
+body
+{
+	background-image: url("images/server.jpg");
+    background-color: #557df7;
+    background-size: cover;
+    background-repeat: no-repeat;
+	background-blend-mode: lighten;
+}
+

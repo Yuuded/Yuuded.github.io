@@ -1,0 +1,186 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,body
+{
+	background: transparent;
+}
+
+h1
+{
+	text-align: center;
+	border: 3px solid black;
+    border-radius: 4px;
+    background-image: linear-gradient(to bottom right, #ffb380, #e65c00);
+	padding-top:3px;
+	padding-bottom:3px;
+	font-style:italic;
+}
+
+#containerDiv
+{
+	width:450px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+span
+{
+	position: relative;
+	float:right;
+	text-align: right;
+	font-weight:bold;
+	margin-right :19px;
+}
+
+.right {
+	position: relative;
+	float:right;	
+}
+
+input {
+	width:200px;	
+}
+
+.right input {
+	margin-right:30px;	
+}
+
+#serverType {
+	margin-right:156px;	
+}
+
+#isOnline, #isOpTime {
+	width:20px;	
+}
+
+#newAdminsTable, #adminsTable {
+	table-layout: fixed;
+  	word-wrap: break-word;
+}
+
+label
+{
+	text-align: right;
+	margin-left: 5%;
+}
+
+td
+{
+    color:black;
+    font-style: italic;
+    font-size: 18px;
+    margin-left: 0;
+    width: auto;
+    text-align: left;
+}
+
+#adminsDiv
+{
+	background-image: linear-gradient(to bottom, #85a2f9, #3c6bf6);
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-bottom: 10px;
+	width: auto;
+	margin-left:5%;
+	margin-right:20px;
+}
+
+#AdminsLabel
+{
+	margin-left:5%;
+    width: auto;
+    text-align: left;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-radius: 4px;
+    margin-bottom: 0px;
+    background-color: #85a2f9;
+}
+
+#curUser {
+	font-size:14px;
+	font-weight:600;
+	margin-left:100px;
+}
+
+#host {
+	margin-left:122px;
+}
+
+#port {
+	margin-left:125px;	
+}
+
+#startAt, #stopAt {
+	margin-left:3px;
+	width:100px;
+	margin-right:0px;	
+}
+
+#startAt {
+	margin-right:3px;	
+}
+
+#stopAt {
+	margin-right:60px;	
+}
+
+#serverType
+{
+	font-weight: bold;
+	color:black;
+}
+
+#serverType::hover
+{
+	cursor: default;
+}
+
+#totalUser
+{
+	width: 80px;
+}
+
+#addB
+{
+	position: relative;
+	float:left;
+	margin-left: 11%;
+	font-size:14px;
+}
+
+#remAdmin
+{
+	position: relative;
+	float:right;
+	margin-right: 11%;
+	font-size:14px;
+}
+
+#buttonDiv2
+{
+	width:450px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#deleteServer, #cancelB, #saveB {
+	margin-left:20px;	
+}
+
+button {
+	font-size:16px;
+    background-color: coral;
+    border-radius: 10px;	
+}
+
+#loadingDiv, #modifyServer {
+	font-size:16px;
+	text-align: center;
+}
+
+a:hover {
+	text-decoration:none;	
+}

@@ -1,0 +1,201 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body {
+	height:100%;
+	margin:0px;
+}
+
+#bodyDiv {
+	text-align:center;
+}
+
+#searchDiv
+{
+	border : 2px solid #000000;
+	border-radius: 4px;
+	background-image: linear-gradient(to bottom, #85a2f9, #0b45f4);
+}
+
+#searchField
+{
+
+}
+
+#searchButton
+{
+	height: 30px;
+	transform: translateY(4px);
+}
+
+#searchForm {
+	padding-top:10px;
+	display:inline-block;
+	padding-bottom: 10px;
+}
+
+.imageButton {
+	background-color: #FFFFFF;
+}
+
+#serverListOuterDiv {
+	text-align:center;
+}
+
+#serverListDiv {
+	display: inline-block;	
+}
+
+#createServerOuterDiv {
+	text-align:center;
+}
+
+#createServerDiv {
+	display: inline-block;	
+}
+
+#searchField {
+	
+}
+
+.clickText
+{
+	cursor: pointer;
+	font-size:22px;
+}
+
+.serverTabOuterDiv {
+	text-align: center;
+}
+
+.serverTabDiv {
+	display:inline-block;
+}
+
+#serversList li {
+					border-top:1px #000000 solid;
+					border-left:1px #000000 solid;
+					border-right:1px #000000 solid;
+					border-bottom:1px #000000 solid;
+    				border-radius: 1px;
+					display:block;
+					height:inherit;
+}
+
+#serversList li ul li {
+		display: inline-block;
+		border-top:none;
+		border-bottom:none;
+		border-left:1px #000000 solid;
+		border-right:none;
+		border-radius:0px;
+		padding-left:10px;
+		padding-right:10px;
+		padding-top:10px;
+		padding-bottom:10px;
+		height:inherit;
+}
+
+#serversList li ul {
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+	height:inherit;
+}
+
+#serversList button {
+	height:50px;
+	vertical-align: middle;
+	background:#FFF;
+	border:3px #111111 solid;
+}
+
+#serversList button:hover {
+	background:#CCC;	
+}
+
+#serversList img {
+	vertical-align: middle;	
+}
+
+#serversList .serverName {
+	border-left:none;
+	width:290px;	
+}
+
+#serverListHeader {
+	border:1px #000000 solid;
+	display:inline-block;
+	margin-left:0px;
+	padding-left:0px;
+}
+
+#serverListHeader li {
+	display:inline-block;
+	padding:0px;
+	text-align:center;
+}
+
+#serversList .serverButtonClass {
+	width:47px;
+	font-size:24px;
+	font-weight:bold;
+	padding:0px;
+	margin:0px;
+}
+
+#serverListHeader #nameLI {
+	width:290px;
+	border-right:1px #000000 solid;
+}
+
+#serverListHeader #stateLI {
+	width:36px;
+	border-right:1px #000000 solid;
+}
+
+#serverListHeader #optionsLI {
+	width:134px;
+	border-right:1px #000000 solid;
+}
+
+#serverListHeader #openLI {
+	width:44px;
+	border-right:none;
+}
+
+#serverListHeader li {
+	padding-right:10px;
+	padding-left:10px;	
+}
+
+#serverListInnerDiv {
+	padding:0px;
+	margin:0px;
+}
+
+#createServerOuterDiv {
+	text-align:center;
+}
+
+#createServerDiv {
+	display: inline-block;	
+}
+
+#table {
+	border:2px #000000 solid;
+	border-radius: 10px;
+	background-image: linear-gradient(to bottom right, #ffb380, #ff751a);
+}
+
+.clickable {
+	cursor: pointer;
+}
+
+#createServerButton {
+	height:30px;
+	font-size:18px;
+    background-color: coral;
+    border-radius: 10px;
+	color: #333;
+}

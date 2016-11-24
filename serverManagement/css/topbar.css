@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+
+#topbar {
+	border-top:1px #000000 solid;
+	border-left:1px #000000 solid;
+	border-right:1px #000000 solid;	
+	border-bottom:1px #000000 solid;
+	height: 75px;
+	margin-top:20px;
+	border-radius: 2px;
+}
+
+#logo {
+	float:left;
+	width:100px;
+	height:inherit;
+	display:table;
+	position:relative;	
+	border-right:1px #000000 solid;
+}
+
+#logo p {
+	display: table-cell;
+	vertical-align:middle;
+	text-align: center;
+	font-size: 32px;
+	font-weight:bold;
+}
+
+#account {
+	float: right;
+	/*display: table;*/
+	position: relative;
+	height:inherit;
+	display: none;
+}
+
+#account ul {
+	display: table-cell;
+	vertical-align:middle;
+	list-style:none;
+}
+
+#account ul li #accountSettings{
+	border-bottom: 1px #000000 solid;
+	border-left: 1px #000000 solid;
+}
+
+#account ul li button {
+	background-color: inherit;
+	text-align: center;
+	font-weight: bold;
+	vertical-align: middle;
+	cursor: pointer;
+	height: 75px;
+	width: 150px;
+	border: none;
+	font-size: 16px;
+	padding-right: 10px;
+}
+
+#logoutButton {
+	background-color: inherit;
+	text-align: center;
+	vertical-align: middle;
+	font-weight: bold;
+	cursor: pointer;
+	height: 75px;
+	width: 150px;
+	border: none;
+	font-size: 16px;
+	padding-right: 10px;
+}
+
+#logoutButton:hover {
+	font-weight: bold;
+	background-color: coral;
+}
+
+#account ul li button:hover {	
+			font-weight: bold;
+			background-color: coral;
+		}
+
+#accountNameDiv {
+	padding-left: 20px;
+	padding-right: 20px;
+	float: right;
+	/*display: table;*/
+	display: none;
+	position: relative;
+	text-align: center;
+	height:inherit;
+	border-left:1px #000000 solid;
+	background-image: linear-gradient(to bottom right, #85a2f9, #0b45f4);
+}
+
+#accountNameDiv p {
+	display: table-cell;
+	font-size:24px;
+	font-weight:bold;
+	vertical-align:middle;
+	text-align: center;
+}
+
+#body {
+	position:relative;
+	clear:both;	
+}
+
+#logoutForm {
+	border-left: 1px #000000 solid;	
+}

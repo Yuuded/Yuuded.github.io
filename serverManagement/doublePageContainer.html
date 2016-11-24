@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Server Management</title>
+
+	<link href="css/doublePageContainer.css" rel = "stylesheet" type = "text/css" media = "screen">
+    
+    <script src="js/jquery-1.12.3.min.js" type="text/javascript"></script>
+    <script src="js/pageExpander.js" type = "text/javascript"></script>
+    
+</head>
+
+<body>
+	<section>
+    	<!--once again, to help with centering and getting the right sizes...-->
+        <div id = "outerDiv">
+            <div id = "leftDiv">
+                <iframe id = "leftFrame" src="serverList.html"></iframe>
+            </div>
+            <div id = "separatorDiv">
+                <button id = "expandLeftButton" onClick="expandLeft()">&#9664</button>
+                <button id = "expandRightButton" onClick="expandRight()">&#9654</button>
+            </div>
+            <div id = "rightDiv">
+                <iframe src="serverListHelper.html"></iframe>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,1 @@
+getServerInfo.js and getServerList.js are just for testing purposes... at least as of now.
