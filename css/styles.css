@@ -1,0 +1,39 @@
+/* CSS Document */
+
+* {
+	background-color: #99cccc;
+	font-size: 20px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+h1, h2 {
+    color: black;
+	font-family: "Times New Roman", Times, serif;
+	font-weight:bold;
+}
+
+h1 {
+    text-align: center;
+	font-size: 32px;
+}
+
+h2 {
+    text-align: left;
+	font-size: 24px;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+		
+}
+	
+a		{
+			text-decoration:inherit;
+			font-weight:inherit;
+}
+
+a:link	{	color:#333333; 	}
+a:visited	{	color:#333333;	}
+a:active	{color:#999999;}
+a:hover {	
+			color:#999999;
+		}
+a:focus	{color:#999999}

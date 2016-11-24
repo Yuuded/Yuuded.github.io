@@ -1,0 +1,1 @@
+Mudar página inicial do servidor de apache: no httpd.conf fazer find de DirectoryIndex e mudar o valor

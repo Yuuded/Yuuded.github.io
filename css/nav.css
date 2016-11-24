@@ -1,0 +1,99 @@
+/* CSS Document */
+
+ul		{
+			text-decoration:inherit;
+			font-weight:inherit;
+			list-style:none;
+		}
+		
+ul li	{
+			text-decoration:inherit;
+			font-weight:inherit;
+			display:inline;
+			text-align:center;
+			float:left;
+			width:300px;
+		}
+		
+		
+#topnav		{
+				background-color:#3366ff;
+				color:#FFF;
+				text-decoration:none;
+				font-weight:bold;
+				text-align:center;
+				clear:both;
+				border-top:1px #000000 dotted;
+				border-left:1px #000000 dotted;
+				border-right:1px #000000 dotted;
+				border-bottom:1px #000000 dotted;
+				height:50px;
+			}
+
+		
+ul li ul li	{
+			display:block;	
+}
+
+#navLinks	{
+				background-color: inherit;
+				color:inherit;
+				margin:0;
+				padding:0;
+				list-style:none;
+}
+
+#navLinks li	{
+				background-color: inherit;
+				color:inherit;
+				float:left;
+				position:relative;
+}
+
+#navLinks li a	{
+				background-color: inherit;
+				color:inherit;
+				display:block;
+				padding:13px 8px;
+				text-decoration:none;
+				font-size:20px;
+}
+
+#navLinks li a:hover	{
+							color:#BBB;	
+}
+
+#navLinks ul	{
+					display:none;
+					position:absolute;
+					left:0;
+					list-style:none;
+					padding:0;	
+}
+
+#useless {
+	height:1px;
+}
+
+#navLinks ul li	{
+					float:left;
+					clear:both;
+					border: 1px #000 dotted;
+}
+
+
+#navLinks ul {
+				background-color: inherit;
+					border-bottom:1px #000000 dotted;
+}
+
+#navLinks ul a	{
+					display:block;
+					padding:10px 8px;
+					text-decoration:none;
+}
+
+#navLinks ul a:hover	{
+							color:#BBB;
+}
+

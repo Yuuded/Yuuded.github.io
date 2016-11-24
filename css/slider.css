@@ -1,0 +1,28 @@
+/* CSS Document */
+
+#slider	{
+		overflow:hidden;
+		width: 900px;
+		height: 600px;
+}
+
+#slider .slides	{
+	display:block;
+	width:5400px;
+	height: 600px;
+	margin:0;
+	padding:0;
+}
+
+#slider .slide	{
+	float:left;
+	list-style-type: none;
+	width: 900px;
+	height: auto;
+}
+
+#slider .slide img	{
+	width: 900px;
+	height: auto;
+}
+

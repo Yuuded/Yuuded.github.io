@@ -1,0 +1,67 @@
+Not me:
+- CSS
+- Low priority: Rearrange add, modify & report when expanded.
+
+- Passar todos os onAlert() e os confirm para models
+- IMPORTANT: Create tests accounts and put there the test servers. Last thing to do and in the real deployment. Must be done at most tomorrow though, because some servers
+need 48h of inactivity...
+
+Done:
+- admins working on ADD;
+- startAt and finishAt working on ADD;
+- error processing on ADD;
+- Auto-update server list.
+- Turning off the server puts nUsers to 0;
+- Instant serverList refrest when new server is added;
+- Turning on/off server actualizes onlineSince;
+- Turning on/off server actualizes lastActiveUser;
+- O close (ou wtv) do report.php volta para o serverListHelper.html (lado direito) ou serverList.html (lado esquerdo).
+- Done ask for confirmation when a Register/Modify is open and one opens modify server/create server with the Server list.
+- Warning messages for turning on/off server and deleting server.
+- Handling server deletion while in report.php.
+- Data support in modify
+- Verifications in client-side (modify)
+- Support admins
+- Somewhat important: modify putting server offline when changing some stuff.
+- Changes in modify server instantaneously (or close to) update server list (force refresh)
+- Warning message on modify (and ask confirmation) in case that a server restart is needed.
+- Error processing
+- VERY IMPORTANT: handling server was deleted while in modify.
+- Somewhat important: add the ? to modify
+- add extra option for server state: yellow exclamation mark when no one has used the server for more than 48h.
+- Some scripts for updating nº of clients (client-side) (includes actualizing lastActiveUser)
+- Support nUsers automatic update on modify.
+- users update must also update the Time since last user;
+- In report/modify, change the nUsers color depending on how full the server is.
+- Supported non-complete remove. Ignored complete remove.
+- Low priority: in report and modify, put a message saying that it's downloading the server information (and then take it out)
+- Put delete in modifyServer to work.
+- Put logged in page in a different page, to solve refresh problems
+- High priority: fix some stuff in login/register (login still gets filled by register and probably vice-versa, fail in register goes back to login)
+- Remove account settings.
+
+What's 100% complete (excluding models):
+- addServer
+- report
+
+var ownerEmail = localStorage.getItem("email");
+var remainingAdmins = {};
+var remainingAdminsIDs = {};
+var admins = {};
+var adminsIDs = {};
+//Only contains the ones that force a server restart (capacity, host, port)
+var originalData = {};
+Stuff that forces a server restart (if it's online): capacity, host, port, online/offline (duh)
+onlineLabel.setAttribute("date-isOnline", JSON.stringify(isOnline));
+
+setServerName(data.name);
+						setServerType(data.type);
+						setCapacity(data.nUsers,data.capacity);
+						setFixedOpTime(data.isSchedule);
+						setSchedulle(data.isSchedule);
+						setStartAt(data.startsAt);
+						setStopAt(data.stopsAt);
+						//setAdmins(["Andre","Joao","Pedro","Ikilier"]);
+						newSetAdmins(admins);
+						setHost(data.ip);
+						setPort(data.port);
