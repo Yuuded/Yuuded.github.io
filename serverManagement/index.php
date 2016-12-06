@@ -3,6 +3,10 @@ require_once("./include/membersite_config.php");
 
 $logout = "";
 
+if($fgmembersite->CheckLogin()) {
+    $fgmembersite->RedirectToURL("serverManagement.php");
+}
+
 if(isset($_POST['logout'])) {
 	$fgmembersite->LogOut();
 	$logout = "true";
